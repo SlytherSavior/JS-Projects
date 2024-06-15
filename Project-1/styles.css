@@ -1,0 +1,13 @@
+/* body{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body > * {
+  margin-top: auto;
+}
+
+.parent-container{ 
+  background-color: #C8C8D4;
+  border: 2px , solid , #C8C8D4;
+} */
