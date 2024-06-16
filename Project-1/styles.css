@@ -1,5 +1,8 @@
 body{ 
-  
+  background-image:url(assets/background-img-body.png);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,8 +12,15 @@ body > * {
 }
 
 .parent-container{ 
+  border-radius: 25px;
   position: absolute;
   margin-top: 50%;
   background-color: #C8C8D4;
   border: 2px , solid , #C8C8D4;
 }
+
+.parent-container > * {
+  padding: 20px
+}
+
+
