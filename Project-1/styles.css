@@ -8,17 +8,25 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
+
 }
 
 .parent-container {
+
   border-radius: 25px;
-  background-color: #C8C8D4;
-  border: 2px solid #C8C8D4;
+  background-color: #F5EFEF;
+  border: 2px solid #F5EFEF;
   display: flex;
-  padding: 20px;
+ 
 }
 
-.inside-parent {
+
+.inside-parent > .form-create-acc {
+  padding: 20px;
+  
+}
+
+.inside-parent  {
   display: flex;
   flex-direction: row;
 }
@@ -26,10 +34,12 @@ body {
 .form-create-acc {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 .company-name {
+  font-family: 'Poppins';
   display: flex;
   align-items: center;
 }
@@ -61,20 +71,42 @@ form > input {
 }
 
 button {
+
+  width: 100%;
   padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #4CAF50;
-  color: white;
+  border: solid;
+  border-color: #C3C2C3;
+  border-radius: 15px;
+  background-color: #F5EFEF;
+  color: black;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #45a049;
+@keyframes hoverTransistion { 
+ from{
+   background-color: #F5EFEF;
+ }
+
+ to{ 
+   background-color: #ada5a5;
+ }
 }
+
+button:hover {
+  animation-name: hoverTransistion;
+  animation-duration: 1s;
+}
+
+
+
+
 
 .sidebar-img {
   width: 300px;
-  height: auto;
+  height: 100%;
   margin-left: 20px;
+}
+
+.form-create-acc > span { 
+  padding-top:0.5rem;
 }
