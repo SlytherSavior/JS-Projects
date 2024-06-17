@@ -8,25 +8,19 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-
+  font-family: 'Poppins', sans-serif;
 }
 
 .parent-container {
-
   border-radius: 25px;
   background-color: #F5EFEF;
   border: 2px solid #F5EFEF;
   display: flex;
- 
+  overflow: hidden;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-
-.inside-parent > .form-create-acc {
-  padding: 20px;
-  
-}
-
-.inside-parent  {
+.inside-parent {
   display: flex;
   flex-direction: row;
 }
@@ -34,14 +28,15 @@ body {
 .form-create-acc {
   display: flex;
   flex-direction: column;
-  padding-right: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
+  width: 100%;
 }
 
 .company-name {
-  font-family: 'Poppins';
+  font-weight: 700;
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .company-name .logo-img {
@@ -51,62 +46,72 @@ body {
   margin-right: 10px;
 }
 
+.title h1, .company-name span {
+  font-weight: 700;
+}
+
+.title p, form > label {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
 
 form > label {
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 14px;
-  padding: 5px;
-  margin-top: 10px;
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  border: none;
 }
 
 form > input {
-
-  display: block; /* Ensures each element takes up full width and starts on a new line */
-  width: 100%; /* Ensures the elements take up the full width of the form */
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 5px;
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 10px;
   border: 1px solid #ccc;
+  box-sizing: border-box;
+
+  transition: border-color 0.5s ease-in, border-style 0.5s ease-in; /* Combine transitions */
 }
 
-button {
-
-  width: 100%;
-  padding: 10px;
-  border: solid;
+form > input:focus {
+  outline: none !important;
+  border-style: solid;
   border-color: #C3C2C3;
-  border-radius: 15px;
+}
+
+
+
+button {
+  font-weight: 700;
+  padding: 15px;
+  border: solid;
+  border-color: #C3C2C3; 
+  border-radius: 10px;
   background-color: #F5EFEF;
   color: black;
   cursor: pointer;
-}
-
-@keyframes hoverTransistion { 
- from{
-   background-color: #F5EFEF;
- }
-
- to{ 
-   background-color: #ada5a5;
- }
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  transition: background-color 0.25s ease-in-out;
 }
 
 button:hover {
-  animation-name: hoverTransistion;
-  animation-duration: 1s;
+  background-color: #c8c0c0;
 }
-
-
-
-
 
 .sidebar-img {
-  width: 300px;
-  height: 100%;
-  margin-left: 20px;
+  width: 350px;
+  height: auto;
+  margin-left: 25px;
 }
 
-.form-create-acc > span { 
-  padding-top:0.5rem;
+.form-create-acc > span {
+  font-weight: 400;
+  padding-top: 0.5rem;
+}
+
+.form-create-acc > span b {
+  font-weight: 700;
 }
