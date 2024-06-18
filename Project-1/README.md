@@ -1,4 +1,4 @@
-![image](https://github.com/SlytherSavior/JS-Projects/assets/85357750/d8e4c26d-e445-425e-b867-8e3a93e14c10)# Project Name: Login Page Design
+# Project Name: Login Page Design
 
 ## Overview
 This project is a static design for a login page created with HTML and CSS. It features an attractive and user-friendly design, including a form to create an account and an option to log in if the user already has an account. The design includes smooth animations and transitions to enhance the user experience.
