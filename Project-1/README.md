@@ -1,4 +1,4 @@
-# Project Name: Login Page Design
+![image](https://github.com/SlytherSavior/JS-Projects/assets/85357750/d8e4c26d-e445-425e-b867-8e3a93e14c10)# Project Name: Login Page Design
 
 ## Overview
 This project is a static design for a login page created with HTML and CSS. It features an attractive and user-friendly design, including a form to create an account and an option to log in if the user already has an account. The design includes smooth animations and transitions to enhance the user experience.
@@ -16,35 +16,10 @@ This project is a static design for a login page created with HTML and CSS. It f
 - Google Fonts
 - Font Awesome
 
-## Getting Started
-
-### Prerequisites
-To view and edit this project, you need a web browser and a text editor.
-
-### Installation
-1. Clone the repository to your local machine using:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-
-2. Navigate to the project directory:
-```bash
-cd your-repo-name
-```
-### Usage
-Open `index.html` in your web browser to view the login page.  
-To make changes, open the project files in your preferred text editor.
-
-### Project Structure
-   |-- assets/
-   |   |-- background-img-body.png
-   |   |-- side-img.png
-   |-- styles.css
-   |-- index.html
-   |-- index.js (if any interactive elements are added later)
-
-
 
 ### Design Picture
+![image](https://github.com/SlytherSavior/JS-Projects/assets/85357750/0399a834-b2fc-4a2f-9f48-381b1a368055)
+
 
 ### License
 This project is licensed under the MIT License.
