@@ -35,13 +35,12 @@ Open `index.html` in your web browser to view the login page.
 To make changes, open the project files in your preferred text editor.
 
 ### Project Structure
-
-|-- assets/
-|   |-- background-img-body.png
-|   |-- side-img.png
-|-- styles.css
-|-- index.html
-|-- index.js (if any interactive elements are added later)
+   |-- assets/
+   |   |-- background-img-body.png
+   |   |-- side-img.png
+   |-- styles.css
+   |-- index.html
+   |-- index.js (if any interactive elements are added later)
 
 
 
