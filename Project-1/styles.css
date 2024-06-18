@@ -56,10 +56,14 @@ body {
 }
 
 form > label {
-  display: block;
-  width: 100%;
+  border-style: solid;
+  border-color: black;
+  border-radius:10px;
+  padding:1.5px;
+  display: inline-block;
+  width: max-content;
   margin-bottom: 5px;
-  border: none;
+ 
 }
 
 form > input {
