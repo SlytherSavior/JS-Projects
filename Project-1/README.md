@@ -25,3 +25,31 @@ To view and edit this project, you need a web browser and a text editor.
 1. Clone the repository to your local machine using:
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
+
+2. Navigate to the project directory:
+```bash
+cd your-repo-name
+```
+### Usage
+Open `index.html` in your web browser to view the login page.  
+To make changes, open the project files in your preferred text editor.
+
+### Project Structure
+
+|-- assets/
+|   |-- background-img-body.png
+|   |-- side-img.png
+|-- styles.css
+|-- index.html
+|-- index.js (if any interactive elements are added later)
+
+
+
+### Design Picture
+
+### License
+This project is licensed under the MIT License.
+
+
+
+
