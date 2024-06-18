@@ -1,0 +1,62 @@
+body { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent-div { 
+  display: flex; 
+ flex-direction: column;
+}
+
+.time-keeper{ 
+ 
+  border-style: solid; 
+  border-radius: 10px;
+  background-color: #7ceab3;
+  padding: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  color : white; 
+  display: flex; 
+  flex-direction: row;
+  gap: 40px;
+}
+
+
+.controls { 
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.hours,.minutes,.seconds{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.controls > button > i { 
+  color : white
+}
+
+.controls > button {
+  height: 25px; 
+  width: 75px;
+  background-color: rgb(124, 234, 179);
+  border-style: solid;
+  border-radius: 11.5px;
+  border-color:#7ceab3;
+  box-sizing: border-box;
+  transition: border-color 0.25s ease-in-out;
+}
+
+button:hover{
+  
+  border-color: rgb(150, 193, 171);
+  cursor: pointer;
+}
