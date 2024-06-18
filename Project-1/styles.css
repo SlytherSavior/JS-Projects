@@ -70,20 +70,23 @@ form > label {
 
 form > input {
   display: block;
+  background-color: #F5EFEF;
   width: 100%;
   margin-bottom: 15px;
   padding: 15px;
   border-radius: 10px;
-  border: 1px solid #ccc;
+  border: none;
   box-sizing: border-box;
+  transition: all ease-in-out;
 
-  transition: border-color 0.5s ease-in, border-style 0.5s ease-in; /* Combine transitions */
 }
 
 form > input:focus {
+  background-color: white;
   outline: none !important;
   border-style: solid;
-  border-color: #C3C2C3;
+  border-width: 1px;
+  border-color: #651465;
 }
 
 
