@@ -1,67 +1,92 @@
+/* Center the content vertically and horizontally */
 body { 
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
+/* Container for the entire stopwatch */
 .parent-div { 
   display: flex; 
- flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  background-color: #282c34;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.time-keeper{ 
- 
-  border-style: solid; 
+/* Container for time display */
+.time-keeper { 
+  border: 2px solid #7ceab3;
   border-radius: 10px;
- 
-
   overflow: hidden;
   box-sizing: border-box;
   margin-bottom: 20px;
-  color : white; 
+  color: white; 
   display: flex; 
   flex-direction: row;
-  gap: 40px;
+  gap: 20px;
+  padding: 10px 20px;
 }
 
-
+/* Container for control buttons */
 .controls { 
-  gap: 38px;
+  gap: 20px;
   display: flex;
   flex-direction: row;
 }
 
-
-.hours,.minutes,.seconds{ 
-  width:50px;
-  border-style:solid;
+/* Styles for hours, minutes, and seconds display */
+.hours, .minutes, .seconds { 
+  width: 80px;
+  border: 2px solid #7ceab3;
   border-radius: 14px;
-  padding: 10px;
+  padding: 20px;
   background-color: #7ceab3;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  font-size: 24px;
 }
 
+/* Color for icons inside control buttons */
 .controls > button > i { 
-  color : white
+  color: white;
 }
 
+/* Styles for control buttons */
 .controls > button {
-  height: 25px; 
+  height: 50px; 
   width: 75px;
-  background-color: rgb(124, 234, 179);
-  border-style: solid;
+  background-color: #7ceab3;
+  border: 2px solid #7ceab3;
   border-radius: 11.5px;
-  border-color:#7ceab3;
   box-sizing: border-box;
   transition: border-color 0.25s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-button:hover{
-  
+/* Hover effect for buttons */
+button:hover {
   border-color: rgb(150, 193, 171);
   cursor: pointer;
+}
+
+/* Size of icons inside buttons */
+button i {
+  font-size: 20px;
+}
+
+/* Styles for the time value */
+.time-keeper div span:first-child {
+  font-size: 36px;
+  font-weight: 700;
 }
