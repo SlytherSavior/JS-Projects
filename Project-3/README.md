@@ -50,17 +50,3 @@ You can customize the appearance by modifying the CSS variables in `styles.css`:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Font Awesome for icons
-- Google Fonts for the Poppins font family
-- Inspiration from modern UI/UX designs
-
-## Author
-
-Your Name - [Your Website](your-website-link) - your.email@example.com
-
-## Support
-
-If you found this project helpful, please give it a ⭐️!
